@@ -14,6 +14,13 @@ Built entirely in Rust, SkyPulseDB prioritizes memory safety, zero-copy operatio
 
 ## Key Features
 
+### AI Integration Ready
+
+SkyPulseDB is built with AI and machine learning workflows in mind. Its architecture supports seamless integration with popular data science tools and frameworks, enabling direct export to formats like Apache Arrow and Parquet. The API is designed for efficient batch extraction, making it easy to feed time-series data into model training, anomaly detection, and forecasting pipelines.
+
+#### TOON and JSON Export Support
+SkyPulseDB supports exporting data in TOON and JSON formats, making it easy to integrate with various data analysis tools and visualization libraries. This feature allows users to export their time-series data in a structured and human-readable format, facilitating further analysis and visualization.
+
 ### Data Center Ready
 
 SkyPulseDB is engineered for robust operation in large-scale, centralized environments. It supports high-throughput ingestion, efficient multi-tenant query workloads, and can be deployed on powerful server hardware or in virtualized/cloud settings. Features like time-partitioned storage, background compaction, and configurable retention policies make it ideal for national weather services, research institutions, and enterprise deployments.
