@@ -32,7 +32,7 @@ Thank you for your interest in contributing! SkyPulseDB is an open-source, Rust-
 
 ## Bug Reports & Feature Requests
 
-- Use [GitHub Issues](https://github.com/yourusername/skypulsedb/issues) for bugs and feature requests.
+- Use [GitHub Issues](https://github.com/CasperHK/SkyPulseDB/issues) for bugs and feature requests.
 - Include steps to reproduce, expected behavior, and environment details.
 
 ## Code of Conduct
