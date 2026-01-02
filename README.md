@@ -14,6 +14,18 @@ Built entirely in Rust, SkyPulseDB prioritizes memory safety, zero-copy operatio
 
 ## Key Features
 
+### Data Center Ready
+
+SkyPulseDB is engineered for robust operation in large-scale, centralized environments. It supports high-throughput ingestion, efficient multi-tenant query workloads, and can be deployed on powerful server hardware or in virtualized/cloud settings. Features like time-partitioned storage, background compaction, and configurable retention policies make it ideal for national weather services, research institutions, and enterprise deployments.
+
+### Embedded-Ready Design
+
+SkyPulseDB can be embedded directly into Rust applications as a library, enabling ultra-low-latency analytics and local persistence for edge and IoT deployments. The core engine is dependency-light, with a simple API for ingesting, querying, and managing time-series data in-process—no external server required.
+
+### Kubernetes-Native Deployment
+
+SkyPulseDB is designed for seamless operation in cloud-native environments. It provides out-of-the-box support for Kubernetes (K8s) deployments, including Helm charts, readiness/liveness probes, and dynamic scaling. This enables effortless integration with modern DevOps workflows, automated upgrades, and robust high-availability setups.
+
 ### Weather-Optimized Storage
 
 SkyPulseDB employs a wide-table schema design where each observation record contains all sensor readings from a single timestamp. This approach eliminates the need for expensive JOIN operations and enables columnar compression algorithms tuned for specific weather elements—Gorilla compression for temperature fluctuations, delta-of-delta encoding for timestamps, and specialized quantization for wind direction.
